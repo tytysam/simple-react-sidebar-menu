@@ -1,7 +1,4 @@
-//import useState hook to create menu collapse state
 import React, { useState } from "react";
-
-//import react pro sidebar components
 import {
   ProSidebar,
   Menu,
@@ -10,8 +7,6 @@ import {
   SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
-
-//import icons from react icons
 import { FaList, FaRegHeart } from "react-icons/fa";
 import {
   FiHome,
@@ -21,8 +16,6 @@ import {
 } from "react-icons/fi";
 import { RiPencilLine } from "react-icons/ri";
 import { BiCog } from "react-icons/bi";
-
-//import sidebar css from react-pro-sidebar module and our custom css
 import "react-pro-sidebar/dist/css/styles.css";
 import "./Header.css";
 
@@ -57,7 +50,7 @@ const Header = () => {
                 Home
               </MenuItem>
               <MenuItem icon={<FaList />}>Category</MenuItem>
-              <MenuItem icon={<FaRegHeart />}>Favourite</MenuItem>
+              <MenuItem icon={<FaRegHeart />}>Favorite</MenuItem>
               <MenuItem icon={<RiPencilLine />}>Author</MenuItem>
               <MenuItem icon={<BiCog />}>Settings</MenuItem>
             </Menu>
